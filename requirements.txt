@@ -1,0 +1,42 @@
+# ============================================================
+# CRYPTO ML - Python Dependencies
+# Compatible with Python 3.10 - 3.14
+# ============================================================
+
+# --- Core PyTorch ---
+# NOTE: Do NOT pin exact torch version - let pip pick the latest
+# compatible build for your Python version automatically.
+torch>=2.9.0
+torch-geometric>=2.5.3
+
+# --- Data Processing ---
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+networkx>=3.1
+
+# --- Visualisation ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# --- Configuration ---
+pyyaml>=6.0
+
+# --- Utilities ---
+tqdm>=4.65.0
+
+# --- Notebooks ---
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# --- Dataset Download ---
+kaggle>=1.6.0
+opendatasets>=0.1.22
+
+# --- Web Dashboard & API Server ---
+fastapi>=0.110.0
+uvicorn>=0.28.0
+
+# --- Optional: Homomorphic Encryption ---
+# Uncomment when you want encrypted inference:
+# tenseal>=0.3.14
